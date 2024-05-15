@@ -1,0 +1,12 @@
+{
+  "features": {
+    "ghcr.io/devcontainers/features/desktop-lite:1": {},
+    "ghcr.io/devcontainers/features/nix:1": {
+      "packages": "nushell,zellij,ripgrep,fd,jq,eza,bat,htop",
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers/features/sshd:1": {}
+  },
+  "image": "mcr.microsoft.com/devcontainers/base:debian",
+  "privileged": true
+}
